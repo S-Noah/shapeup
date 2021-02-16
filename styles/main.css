@@ -1,5 +1,45 @@
-head title {
-    font-size: 400%;
-    color: aqua;
-    text-shadow: 2px 2px 2px #ffffff;
+#name {
+    font-size: 250%;
+    font-style: italic;
+    color: steelblue;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
+#motto {
+    font-size: 180%;
+}
+header img {
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+/* unvisited link */
+section a:link {
+    color: maroon;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+/* visited link */
+section a:visited {
+    color: maroon;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+/* mouse over link */
+section a:hover {
+    color: steelblue;
+}
+
+/* selected link */
+section a:active {
+    color: steelblue;
+}
+aside ul li {
+    margin: 5px;
+}
+aside ul li a {
+    color: steelblue;
+    font-weight: bold;
+}
+
