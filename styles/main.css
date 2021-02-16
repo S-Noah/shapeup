@@ -42,4 +42,7 @@ aside ul li a {
     color: steelblue;
     font-weight: bold;
 }
-
+footer p {
+    font-size: 75%;
+    text-align: center;
+}
