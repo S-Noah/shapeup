@@ -1,8 +1,18 @@
 *{
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+html {
+    background-image: url(../images/paper.gif);
 }
 body {
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 100%;
@@ -33,6 +43,50 @@ header img {
     margin-left: 10px;
     margin-right: 20px;
     
+}
+#nav_menu ul {
+    list-style: none;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 8px 0px;
+}
+#nav_menu a:hover {
+    color: red;
+}
+#nav_menu li {
+    display: inline;
+    padding: 5px 10px;
+    border-right: 3px solid black;
+}
+#nav_menu a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav_menu #last {
+    border-right: none;
+}
+
+#nav_list ul{
+    list-style: none;
+
+}
+#nav_list li {
+    border: 2px solid black;
+    
+}
+#nav_list a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    padding: .5em;
+    color: black;
+
+}
+#nav_list a:hover, #nav_list a:focus {
+    background-color: steelblue;
+    color: white;
 }
 section h1 {
     font-size: 180%;
