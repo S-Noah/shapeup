@@ -202,6 +202,9 @@ footer p {
 #mobile_menu {
     display: none;
 }
+#nav_menu #about {
+    float: right;
+}
 
 @media only screen and (max-wdith: 600px) {
     .homesection {
