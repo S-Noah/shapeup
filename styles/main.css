@@ -199,14 +199,14 @@ footer p {
     padding-bottom: 1em;
     color: white;
 }
-#mobile_menu {
+#mobilemenu {
     display: none;
 }
 #nav_menu #about {
     float: right;
 }
 
-@media only screen and (max-wdith: 600px) {
+@media only screen and (max-width: 600px) {
     .homesection {
         float: none;
         width: 100%;
@@ -214,6 +214,15 @@ footer p {
 
     .sidebar {
         width: 100;
+    }
+    #nav_menu {
+        display: none;
+    }
+    #mobilemenu {
+        display: inherit;
+    }
+    .slicknav_menu {
+        background-color: steelblue !important;
     }
 }
 
